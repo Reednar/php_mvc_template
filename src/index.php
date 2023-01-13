@@ -19,9 +19,6 @@ switch($uc)
     case 'authentification':
         include('controllers/c_authentification.php');
         break;
-    case 'jouer':
-        include('controllers/c_jouer.php');
-        break;
 }
 
 include('vues/v_pied.php');
